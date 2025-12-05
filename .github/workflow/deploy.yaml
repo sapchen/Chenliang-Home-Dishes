@@ -9,15 +9,8 @@ permissions:
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -28,14 +21,11 @@ jobs:
         with:
           node-version: '18'
           
-      - name: Install GitBook
+      - name: Install and Build
         run: |
-          npm install -g gitbook-cli
-          npm install
+          npm install -g honkit
+          honkit build
           
-      - name: Build GitBook
-        run: npm run build
-        
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
@@ -45,5 +35,4 @@ jobs:
           path: './_book'
           
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4

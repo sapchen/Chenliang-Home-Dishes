@@ -1,11 +1,11 @@
 {
-  "name": "chenliang-cookbook",
-  "version": "1.0.0",
+  "name": "my-docs",
   "scripts": {
-    "build": "gitbook build",
-    "serve": "gitbook serve"
+    "build": "honkit build",
+    "serve": "honkit serve",
+    "install": "honkit install"
   },
   "devDependencies": {
-    "gitbook-cli": "^2.3.3"
+    "honkit": "^4.0.0"
   }
 }
