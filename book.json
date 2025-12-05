@@ -3,17 +3,17 @@
   "author": "_061837@bupt",
   "description": "记录开发出宸良家常见的家常菜肴的过程",
   "language": "zh",
+  "root": ".",
   "styles": {
-    "website": "styles/website.css",
-    "epub": "styles/epub.css"
+    "website": "styles/website.css"
   },
   "plugins": [
-        "theme-default"
-    ],
+    "theme-default"
+  ],
   "variables": {
-        "theme": "default", 
-        "theme-default": {
-            "body-background": "#fcfcfc" 
-        }
+    "theme": "default",
+    "theme-default": {
+      "body-background": "#fcfcfc"
+    }
   }
 }
