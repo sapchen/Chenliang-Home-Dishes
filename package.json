@@ -1,5 +1,5 @@
 {
-  "name": "my-docs",
+  "name": "chenliang-home-dishes",
   "scripts": {
     "build": "honkit build",
     "serve": "honkit serve",

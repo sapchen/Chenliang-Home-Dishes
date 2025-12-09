@@ -5,7 +5,8 @@
   "language": "zh",
   "root": ".",
   "styles": {
-    "website": "styles/website.css"
+    "website": "styles/website.css",
+    "epub": "styles/epub.css"
   },
   "plugins": [
     "theme-default"
