@@ -28,6 +28,3 @@
 可以自由：分享、修改、商业使用本作品。
 
 必须：署名（注明原作者和项目链接）、以相同方式共享（衍生作品使用相同协议）
-
-## 请我喝一杯咖啡
-[请我喝一杯咖啡](https://sapchen.github.io/Chenliang-Home-Dishes/buy-me-a-coffee.html)
