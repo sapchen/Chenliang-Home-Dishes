@@ -17,5 +17,5 @@
       "body-background": "#fcfcfc"
     }
   },
-  "cover": "/images/covers/cover.jpg"
+  "cover": "./images/covers/cover.jpg"
 }
