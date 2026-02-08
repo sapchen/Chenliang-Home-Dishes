@@ -1,2 +1,2 @@
 # 第一章-烧烤
-![cover1](/images/covers/cover1.png)
+![cover1](/images/covers/cover1.jpg)
