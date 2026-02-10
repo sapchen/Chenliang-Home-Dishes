@@ -7,18 +7,20 @@
 陈阿良和黄宸宸一家共同出品，记录了陈阿良在黄宸宸大厨的指导下，在烧菜路上一路成长的过程。
 
 ## 仓库
-**在线访问**： [https://sapchen.github.io/Chenliang-Home-Dishes/](https://sapchen.github.io/Chenliang-Home-Dishes/)
+**Github Pages在线访问**： [https://sapchen.github.io/Chenliang-Home-Dishes/](https://sapchen.github.io/Chenliang-Home-Dishes/)
 
 **项目Github源地址**： [https://github.com/sapchen/Chenliang-Home-Dishes/](https://github.com/sapchen/Chenliang-Home-Dishes/)
 
 ## 本地构建
 **克隆仓库**： git clone https://github.com/sapchen/Chenliang-Home-Dishes.git
 
-**安装nodejs**： choco install nodejs-lts
+**安装nodejs**： winget install OpenJS.NodeJS.LTS
 
 **安装honkit**： npm install -g honkit
 
-**部署本地http服务**： honkit serve
+**本地开发**： honkit serve
+
+**生产构建**： honkit build
 
 **生成Epub文件**： honkit epub ./ ./宸良的家常菜.epub
 
